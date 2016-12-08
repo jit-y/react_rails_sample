@@ -9,8 +9,8 @@ gem 'uglifier', '>= 1.3.0'
 gem 'jbuilder', '~> 2.5'
 gem 'nokogiri', '~>1.6.8'
 gem 'react_on_rails', '~> 6'
-gem 'libv8', '~> 3.16.14.17'
-gem 'therubyracer', '0.12.2', platforms: :ruby
+gem 'libv8', '~> 5.0'
+gem 'mini_racer', platforms: :ruby
 
 group :development, :test do
   gem 'byebug', platform: :mri
